@@ -19,10 +19,9 @@ class Menuu extends Component {
                                 <h1>Menu</h1>
                             </div>
                             <h2><a href="#">Change Background</a></h2>
-
                             <h2><a href="#">Filter Cards</a></h2>
                             <h2><a href="#">Power-Ups</a></h2>
-                            <h2><a href="<>">More</a></h2><hr />
+                            <h2><a href="#">More</a></h2><hr />
                             <h3>Activity</h3>
                         </div>
                     </div>

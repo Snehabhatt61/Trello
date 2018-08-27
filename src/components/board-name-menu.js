@@ -16,16 +16,15 @@ class Boardnamemenu extends Component {
                     <div className='pop-over'>
                         <span className='pop-over-title'>Rename Board</span>
                         <a href='#' className='pop-over-title-close'>
-                            <img src='/close.png' className='close-icon'/>
-                        </a>
-                        
+                            {/* <img src='/close.png' className='close-icon'/> */}
+                        </a>                      
                         <div className='pop-over-content'>
                             <div>
                                 <div>
                                     <form>
                                         <label>Name</label>
-                                        <input type='text' value='abc'/>
-                                        <input className='primary wide' type='submit' value='Rename'/>
+                                        <input type='text' defaultValue='abc'/>
+                                        <input className='primary wide' type='submit' defaultValue='Rename'/>
                                     </form>
                                 </div>
                             </div>
@@ -35,7 +34,6 @@ class Boardnamemenu extends Component {
             </div> 
         );
     } 
-}    
-
+}
 export default Boardnamemenu;        
 

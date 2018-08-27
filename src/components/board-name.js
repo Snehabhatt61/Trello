@@ -22,7 +22,11 @@ class Boardname extends Component {
     render() {
         return (
             <div>
-                <a className='body-header-name' onMouseDown={this.handleMouseDown}>HEY</a>
+                <p className='body-header-name'
+                    onMouseDown={this.handleMouseDown}
+                >
+                    HEY
+                 </p>
                 <Boardnamemenu handleMouseDown={this.handleMouseDown}
                     boardnamemenuVisibility={this.state.visible} />
             </div>

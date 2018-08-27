@@ -19,7 +19,7 @@ class App extends Component {
   }
   componentDidMount() {
     axios.get('http://localhost:4000/mydata')
-    .then(sneha => console.log(sneha))
+      .then(sneha => console.log(sneha))
   }
   render() {
     return (

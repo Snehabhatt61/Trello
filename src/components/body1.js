@@ -7,20 +7,19 @@ class Body1 extends Component {
     render() {
         return (
             <div className="body1">
-                <a>
-                    <Boardname /></a>
+
+                <Boardname />
                 <a>
                     <span className='body-header-name'><img src='' />**</span>
                 </a>
-                <a>
-                    <Businessclassteam/>
-                </a>
+                <Businessclassteam />
                 <a>
                     <span className='body-header-name'>Private</span>
                 </a>
-                <a><span className='body-header-name show'>
-                    <Menucontainer /></span>
-                </a>
+                <span className='body-header-name show'>
+                    <Menucontainer />
+                </span>
+
 
 
             </div>

@@ -22,7 +22,10 @@ class Businessclassteam extends Component {
     render() {
         return (
             <div>
-                <a className='body-header-name' onMouseDown={this.handleMouseDown}>Business class team
+                <a className='body-header-name'
+                    onMouseDown={this.handleMouseDown}
+                >
+                    Business class team
                 </a>
                 <Businessclassmenu handleMouseDown={this.handleMouseDown}
                     businessclassmenuVisibility={this.state.visible} />
